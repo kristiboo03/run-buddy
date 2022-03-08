@@ -1,6 +1,6 @@
 .hero {
     background-position: bottom;
-    height: auto;
+    height: fit-content;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -11,8 +11,8 @@
 
 .page-title h2 {
     display: inline-block;
-    border-bottom: 4px solid #fce138;
-    padding: 0 80px 15px 80px;
+    border-bottom: 8px solid #fce138;
+    padding: 0 20px 15px 20px;
     font-weight: normal;
     font-size: 42px;
     font-style: italic;
@@ -35,7 +35,7 @@
     margin: 0 20px;
 }
 
-.secondary-content ul {
+.secondary-content ul, .secondary-content li {
     color: #39a6b2;
     margin: 0 10px;
 }
